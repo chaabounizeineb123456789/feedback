@@ -1,0 +1,60 @@
+body{background-color: skyblue; }
+.trainings,.skills{padding-left: 30% ;
+  }
+
+.zeineb2,.zeineb,.zeineb3{
+
+}
+#cv,#cv2,#cv3{padding-left: 30% ;
+        }
+
+.core{
+	position: absolute;
+	padding-left: 5% ;
+	display: inline-block ;
+	border: 2px solid black;
+}
+.non{display: inline-block ;
+     border: 2px solid black;
+    }
+
+* {
+    box-sizing: border-box;
+}
+.name{  float: left;
+    padding: 20px;
+    width: 50%;
+    background-color: #f1f1f1;
+    height: 500px; /* only for demonstration, should be removed */
+
+   } 
+.feed{ float: left;
+    width: 30%;
+    height: 500px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+ .feed,.name {
+        width: 100%;
+        height: auto;
+}
+}
+
+
+#p1{font-size:20px;
+}
+#p{font-size: 20px;
+   font-weight: 900;
+   color:cadetblue;}   
+
+#fd{
+display: block;
+}
+
+.name,.feed{
+	position: relative;
+	left: 60px;
+}
+
